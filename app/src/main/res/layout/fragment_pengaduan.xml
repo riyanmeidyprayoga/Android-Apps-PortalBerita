@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252196F3"
+    tools:context=".Fragment.PengaduanFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_pengaduan"/>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/layoutName"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="14dp"-->
+            <!--android:layout_marginEnd="14dp"-->
+            <!--app:cardCornerRadius="5dp"-->
+            <!--app:cardElevation="3dp">-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical"-->
+                <!--android:layout_margin="16dp">-->
+
+                <!--<TextView-->
+                    <!--android:text="Tulis Pengaduan"-->
+                    <!--android:layout_marginLeft="3dp"-->
+                    <!--android:layout_marginBottom="10dp"-->
+                    <!--android:textSize="20sp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:fontFamily="sans-serif-light"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" />-->
+
+                <!--<android.support.design.widget.TextInputLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content">-->
+                    <!--<EditText-->
+                        <!--android:id="@+id/pd_nik"-->
+                        <!--android:hint="Nik"-->
+                        <!--android:fontFamily="sans-serif-light"-->
+                        <!--android:inputType="textPersonName|textCapWords"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content" />-->
+                <!--</android.support.design.widget.TextInputLayout>-->
+
+                <!--<android.support.design.widget.TextInputLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content">-->
+                    <!--<EditText-->
+                        <!--android:id="@+id/pd_nama"-->
+                        <!--android:hint="Nama"-->
+                        <!--android:fontFamily="sans-serif-light"-->
+                        <!--android:inputType="textPersonName|textCapWords"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content" />-->
+                <!--</android.support.design.widget.TextInputLayout>-->
+
+                <!--<android.support.design.widget.TextInputLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content">-->
+                    <!--<EditText-->
+                        <!--android:id="@+id/pd_isi"-->
+                        <!--android:hint="Isi Pengaduan"-->
+                        <!--android:fontFamily="sans-serif-light"-->
+                        <!--android:inputType="textPersonName|textCapWords"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content" />-->
+                <!--</android.support.design.widget.TextInputLayout>-->
+            <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+        <!--<Button-->
+            <!--android:id="@+id/btnUploadImage"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Kirim"-->
+            <!--android:layout_marginRight="15dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:textSize="18sp"-->
+            <!--android:textColor="#fff"-->
+            <!--android:background="@drawable/rd_buttom"/>-->
+    <!--</LinearLayout>-->
+
+
+
+</FrameLayout>

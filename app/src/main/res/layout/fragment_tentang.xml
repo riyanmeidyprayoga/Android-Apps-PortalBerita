@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#D2E9F1"
+    tools:context=".Fragment.TentangFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/layoutPicture"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_centerInParent="true"
+                android:id="@+id/picture21"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:src="@drawable/ic_p_user" />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabChoosePic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/ic_p_edit"
+                app:fabSize="mini"
+                tools:ignore="VectorDrawableCompat" />
+        </RelativeLayout>
+        <android.support.v7.widget.CardView
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp">
+
+            <LinearLayout
+                android:id="@+id/txttentang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mainmenus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/mr"
+                    android:text="Informasi User"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/colorPrimary" />
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:text="Nama"
+                            android:textSize="15sp"
+
+                            android:fontFamily="@font/mr"/>
+                        <TextView
+                            android:layout_width="5dp"
+                            android:layout_height="wrap_content"
+                            android:text=":" />
+                        <TextView
+                            android:id="@+id/tvNama"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Riyan Meidy Prayoga"
+                            android:textSize="15sp"
+                            android:fontFamily="@font/mr"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:text="Username"
+                            android:textSize="15sp"
+
+                            android:fontFamily="@font/mr"/>
+                        <TextView
+                            android:layout_width="5dp"
+                            android:layout_height="wrap_content"
+                            android:text=":" />
+                        <TextView
+                            android:id="@+id/tvNama1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="riyanmeidyprayoga"
+                            android:textSize="15sp"
+                            android:fontFamily="@font/mr"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:text="Tanggal Lahir"
+                            android:textSize="15sp"
+
+                            android:fontFamily="@font/mr"/>
+                        <TextView
+                            android:layout_width="5dp"
+                            android:layout_height="wrap_content"
+                            android:text=":" />
+                        <TextView
+                            android:id="@+id/tvNama3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="30 Mei 1998"
+                            android:textSize="15sp"
+                            android:fontFamily="@font/mr"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:text="Tempat Tinggal"
+                            android:textSize="15sp"
+
+                            android:fontFamily="@font/mr"/>
+                        <TextView
+                            android:layout_width="5dp"
+                            android:layout_height="wrap_content"
+                            android:text=":" />
+                        <TextView
+                            android:id="@+id/tvNama4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tegal"
+                            android:textSize="15sp"
+                            android:fontFamily="@font/mr"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp">
+                        <TextView
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:text="Email"
+                            android:textSize="15sp"
+
+                            android:fontFamily="@font/mr"/>
+                        <TextView
+                            android:layout_width="5dp"
+                            android:layout_height="wrap_content"
+                            android:text=":" />
+                        <TextView
+                            android:id="@+id/tvNama2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="riyanmeidyprayoga@gmail.com"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/mr"
+                            />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnlihatpenginapan2"
+                        android:layout_width="130dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/rd_buttom"
+                        android:fontFamily="@font/mr"
+                        android:text="Edit Profil"
+                        android:textColor="#fff"
+                        android:layout_gravity="end"
+                        android:textStyle="bold"
+                        android:textSize="12dp"
+                        android:layout_marginBottom="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/ler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:id="@+id/rre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+</FrameLayout>
